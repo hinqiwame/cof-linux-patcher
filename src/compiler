@@ -1,0 +1,5 @@
+#!/bin/bash
+
+crystal build patcher.cr
+mv patcher ..
+
