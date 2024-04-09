@@ -5,7 +5,7 @@ A patcher for Cry of Fear on Linux, addressing various bugs by replacing game bu
 
 ## Usage
 To use the patcher follow these steps:
-- Clone the repository: `git clone https://github.com/morphineaddicted/cof-linux-patcher`
+- Clone the repository: `git clone https://github.com/hinqiwame/cof-linux-patcher`
 - Navigate to the cloned repo: `cd cof-linux-patcher`
 - Grant patcher executable permissions: `chmod +x patcher`
 - Run the patcher: `./patcher` <br><br>
