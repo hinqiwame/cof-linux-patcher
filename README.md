@@ -1,7 +1,7 @@
 # Cry of Fear Linux Patcher
 ![](/ass/logo.png)
 
-A patcher for Cry of Fear on Linux, addressing various bugs by replacing game build and engine DLL files with patched versions. The patcher automates the process, making it easier for users to apply the necessary modifications. Written in Crystal.
+A patcher for Cry of Fear on Linux, addressing various bugs by replacing game build and engine libraries with patched versions. The patcher automates the process, making it easier for users to apply the necessary modifications. Written in C++.
 
 ## Usage
 To use the patcher follow these steps:
@@ -10,9 +10,9 @@ To use the patcher follow these steps:
 - Grant patcher executable permissions: `chmod +x patcher`
 - Run the patcher: `./patcher` <br><br>
 
-The whole process will look like this:
+The whole process will look similar to this:
 ```
-[kys fedora ~/Coding/Crystal/cof-patcher] $ ./patcher
+[kys fedora ~/Coding/C++/cof-patcher] $ ./patcher
 [~] Enter your FULL path (should begin with /home/) to Cry of Fear installation: 
 /home/x0/.steam/steam/steamapps/common/Cry of Fear
 [~] Checking provided directory...
