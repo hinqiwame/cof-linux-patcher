@@ -1,7 +1,6 @@
 # Cry of Fear Linux Patcher
 ![](/ass/logo.png)
 
-## Description
 A patcher for Cry of Fear on Linux, addressing various bugs by replacing game build and engine DLL files with patched versions. The patcher automates the process, making it easier for users to apply the necessary modifications. Written in Crystal.
 
 ## Usage
