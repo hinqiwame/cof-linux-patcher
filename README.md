@@ -29,7 +29,6 @@ The whole process will look similar to this:
 [~] Replacing client.dll...
 [+] client.dll replaced!
 [+] Everything done. Have fun!
-[kys fedora ~/Coding/Crystal/cof-patcher] $ 
 ```
 <br>
 
