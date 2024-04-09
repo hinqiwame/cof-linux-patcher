@@ -44,8 +44,8 @@ The patcher will prompt you to enter the **FULL** path to your Cry of Fear insta
 
 ## Patched files
 The patcher replaces several files to improve the Cry of Fear experience on Linux. Here's a summary of the modifications:
-1. `cof.exe` - Replaces the main game executable. [It is an official patch from Team Psyksckallar](https://www.moddb.com/games/cry-of-fear/downloads/cry-of-fear-crash-patch-for-64-bit-users). Uses x64 bit instead of x32, make the game generally much more stable.
-2. `opengp32.dll` - Used for dynamic lighting. References to it are corrected in `/hw.dll` and `/cryoffear/cl_dlls/client.dll`. Wine may lack the `wglGetDefaultProcAddress` function. To address this, I've patched Cry of Fear's `opengl32.dll` by changing occurrences of `jne(75)` to `jmp(EB)` at the specific addresses:
+1. `cof.exe` - Replaces the main game executable. [It is an official patch from Team Psyksckallar](https://www.moddb.com/games/cry-of-fear/downloads/cry-of-fear-crash-patch-for-64-bit-users). Uses x64 bit instead of x32, makes the game generally much more stable.
+2. `opengp32.dll` - Used for dynamic lighting in the game. References to it are corrected in `/hw.dll` and `/cryoffear/cl_dlls/client.dll`. Wine may lack the `wglGetDefaultProcAddress` function. To address this, I've patched Cry of Fear's `opengl32.dll` by changing occurrences of `jne(75)` to `jmp(EB)` at the specific addresses:
 ```
 Address     To    From
 000066DB    EB    75
