@@ -1,5 +1,5 @@
 #!/bin/bash
 
-crystal build patcher.cr
-mv patcher ..
+g++ -o cof-patcher cof-patcher.cpp 
+mv cof-patcher ..
 
