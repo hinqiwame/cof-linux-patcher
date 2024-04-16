@@ -4,11 +4,26 @@
 A patcher for Cry of Fear on Linux, addressing various bugs by replacing game build and engine libraries with patched versions. The patcher automates the process, making it easier for users to apply the necessary modifications. Written in C++.
 
 ## Usage
+> Prerequisites: `git`
+> 
 To use the patcher follow these steps:
-- Clone the repository: `git clone https://github.com/hinqiwame/cof-linux-patcher`
-- Navigate to the cloned repo: `cd cof-linux-patcher`
-- Grant patcher executable permissions: `chmod +x cof-patcher`
-- Run the patcher: `./cof-patcher` <br><br>
+- Clone the repository:
+  ```
+  git clone https://github.com/hinqiwame/cof-linux-patcher
+  ```
+- Navigate to the cloned repo:
+  ```
+  cd cof-linux-patcher
+  ```
+- Grant patcher executable permissions:
+  ```
+  chmod +x cof-patcher
+  ```
+- Run the patcher:
+  ```
+  ./cof-patcher
+  ```
+  <br><br>
 
 The whole process will look similar to this:
 ```
