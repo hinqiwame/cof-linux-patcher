@@ -23,8 +23,7 @@ To use the patcher follow these steps:
   ```
   ./cof-patcher
   ```
-  <br><br>
-
+---
 The whole process will look similar to this:
 ```
 [kys fedora ~/Coding/C++/cof-patcher] $ ./patcher
