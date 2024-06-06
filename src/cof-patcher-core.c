@@ -22,8 +22,8 @@ void movefile(const char* source, const char* destination) {
 }
 
 void patch(const char* path) {
-	printf("[*] Checking provided directory...\n");
-	struct stat dirStat;
+    printf("[*] Checking provided directory...\n");
+    struct stat dirStat;
     if (stat(path, &dirStat) == 0) {
         printf("[+] Directory check passed\n");
     } else {
@@ -52,16 +52,16 @@ void patch(const char* path) {
     movefile("patches/client.dll", strcat(path, "/cryoffear/cl_dlls/client.dll"));
     printf("[+] client.dll replaced!\n");
 
-	// At this point only base patches have been applied.
-	// If you want to install any additional mods or whatever, place the files you need in "patches" directory and use it like shown below:
+    // At this point only base patches have been applied.
+    // If you want to install any additional mods or whatever, place the files you need in "patches" directory and use it like shown below:
 
-	/*
-	printf("[*] Patching unlockables...\n");
-	movefile("patches/scriptsettings.dat", strcat(path, "/cryoffear/scriptsettings.dat"));
-	printf("[+] Unlockables patched!\n");
-	*/
+    /*
+    printf("[*] Patching unlockables...\n");
+    movefile("patches/scriptsettings.dat", strcat(path, "/cryoffear/scriptsettings.dat"));
+    printf("[+] Unlockables patched!\n");
+    */
 
-	// Remember to recompile the program if you modified it. You can use compiler script in this directory. 
+    // Remember to recompile the program if you modified it. You can use compiler script in this directory. 
 
     printf("[*] Everything is done. Happy summer!\n"); // :)
 }
@@ -72,11 +72,11 @@ int main(int argc, char* argv[]) {
     } else if (argc > 1 && (strcmp(argv[1], "-v") == 0 || strcmp(argv[1], "--version") == 0)) {
         printf("0.0.2\n");
     } else {
-		if (argc != 2) {
-			printf("You didn't provide enough arguments.\nSee %s --help.\n", argv[0]);
-			exit(EXIT_FAILURE);
-		}
-		const char* path = argv[1];
+        if (argc != 2) {
+	    printf("You didn't provide enough arguments.\nSee %s --help.\n", argv[0]);
+	    exit(EXIT_FAILURE);
+	}
+	const char* path = argv[1];
         patch(path);
     }
 
