@@ -1,5 +1,4 @@
 #!/bin/bash
 
-g++ -o cof-patcher cof-patcher.cpp 
-mv cof-patcher ..
-
+gcc -o cof-patcher-core cof-patcher-core.c >> compiler.log
+mv cof-patcher-core .. >> compiler.log
