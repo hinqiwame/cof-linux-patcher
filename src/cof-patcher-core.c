@@ -68,7 +68,7 @@ void patch(const char* path) {
 
 int main(int argc, char* argv[]) {	
     if (argc > 1 && (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0)) {
-        printf("Cry of Fear Linux patcher core v0.0.2\n\nDescription: Replaces game and engine libraries to patched ones. Fixes most of the Cry of Fear bugs for Linux.\n\nUsage: %s\n\nOptional arguments:\n    -h, --help\t\tShow this help message and exit.\n    -v, --version\tDisplay the version of the build and exit.\n\nGithub: https://github.com/hinqiwame/cof-linux-patcher\n", argv[0]);
+        printf("Cry of Fear Linux patcher core v0.0.2\n\nDescription: Replaces game and engine libraries to patched ones. Fixes most of the Cry of Fear bugs for Linux.\n\nUsage: %s /path/to/cof\n\nOptional arguments:\n    -h, --help\t\tShow this help message and exit.\n    -v, --version\tDisplay the version of the build and exit.\n\nGithub: https://github.com/hinqiwame/cof-linux-patcher\n", argv[0]);
     } else if (argc > 1 && (strcmp(argv[1], "-v") == 0 || strcmp(argv[1], "--version") == 0)) {
         printf("0.0.2\n");
     } else {
