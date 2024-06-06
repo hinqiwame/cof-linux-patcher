@@ -17,11 +17,11 @@ To use the core patcher follow these steps:
   ```
 - Grant patcher executable permissions:
   ```
-  chmod +x cof-patcher
+  chmod +x cof-patcher-core
   ```
 - Run the patcher:
   ```
-  ./cof-patcher
+  ./cof-patcher-core
   ```
 ---
 The whole process will look similar to this:
