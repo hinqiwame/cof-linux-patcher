@@ -1,12 +1,12 @@
 # Cry of Fear Linux Patcher
 ![](/ass/logo.png)
 
-A patcher for Cry of Fear on Linux, addressing various bugs by replacing game build and engine libraries with patched versions. The patcher automates the process, making it easier for users to apply the necessary modifications. Written in C++.
+A patcher for Cry of Fear on Linux, addressing various bugs by replacing game build and engine libraries with patched versions. The patcher automates the process, making it easier for users to apply the necessary modifications. Written in C.
 
-## Usage
+## Usage (core)
 > Prerequisites: `git`
 > 
-To use the patcher follow these steps:
+To use the core patcher follow these steps:
 - Clone the repository:
   ```
   git clone https://github.com/hinqiwame/cof-linux-patcher
@@ -26,28 +26,26 @@ To use the patcher follow these steps:
 ---
 The whole process will look similar to this:
 ```
-[kys fedora ~/Coding/C++/cof-patcher] $ ./patcher
-[~] Enter your FULL path (should begin with /home/) to Cry of Fear installation: 
-/home/x0/.steam/steam/steamapps/common/Cry of Fear
-[~] Checking provided directory...
+[hinqiwame@icantstopbleeding cof-linux-patcher]$ ./cof-patcher-core ~/.steam/steam/steamapps/common/Cry\ of\ Fear/
+[*] Checking provided directory...
 [+] Directory check passed
-[~] Moving files...
-[~] Replacing cof.exe...
+[*] Moving files...
+[*] Replacing cof.exe...
 [+] cof.exe replaced!
 [~] Deleting opengl32.dll in the OG directory...
 [+] opengl32.dll removed!
-[~] Moving opengp32.dll...
+[*] Moving opengp32.dll...
 [+] opengp32.dll moved!
-[~] Replacing hw.dll...
+[*] Replacing hw.dll...
 [+] hw.dll replaced!
-[~] Replacing client.dll...
+[*] Replacing client.dll...
 [+] client.dll replaced!
-[+] Everything done. Have fun!
+[*] Everything is done. Happy summer!
 ```
 <br>
 
 **Patcher assumes that you have installed Cry of Fear along with the Proton 5.13-6.** <br> 
-The patcher will prompt you to enter the **FULL** path to your Cry of Fear installation (should begin with `/home/`). After entering the path, it will check the directory's existence and proceed with the file replacements. <br>
+The second argument after `./cof-patcher-core` should be the **FULL** path to your Cry of Fear installation (should begin with `/home/`). After entering the path, it will check the directory's existence and proceed with the file replacements. <br>
 > If you install Cry of Fear through official Steam client (not flatpak or whatever), typically the path is `/home/your_username/.steam/steam/steamapps/common/Cry of Fear`.
 
 ## Optional Arguments
