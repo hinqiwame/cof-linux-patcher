@@ -45,7 +45,7 @@ The whole process will look similar to this:
 <br>
 
 **Patcher assumes that you have installed Cry of Fear along with the Proton 5.13-6.** <br> 
-The second argument after `./cof-patcher-core` should be the **FULL** path to your Cry of Fear installation (should begin with `/home/`). After entering the path, it will check the directory's existence and proceed with the file replacements. <br>
+The second argument after `./cof-patcher-core` should be the **FULL** path to your Cry of Fear installation (should begin with `/home/`). Patcher will check the directory's existence and proceed with the file replacements. <br>
 > If you install Cry of Fear through official Steam client (not flatpak or whatever), typically the path is `/home/your_username/.steam/steam/steamapps/common/Cry of Fear`.
 
 ## Optional Arguments
