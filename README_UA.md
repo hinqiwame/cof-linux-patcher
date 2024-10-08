@@ -1,4 +1,4 @@
-# Cry of Fear Linux Patcher (Core)
+# Cry of Fear Linux Patcher (Core) 🇺🇦
 > v0.0.4 - Пізніше ви дізнаєтесь, чому це "core" :)
 >
 ![](/ass/logo.png)
