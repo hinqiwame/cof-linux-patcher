@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc -o cof-patcher-core cof-patcher-core.c >> compiler.log
-mv cof-patcher-core .. >> compiler.log
+gcc -o cof-patcher-core cof-patcher-core.c >> compiler.log 2>&1
+mv cof-patcher-core .. >> compiler.log 2>&1
