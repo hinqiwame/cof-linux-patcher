@@ -42,7 +42,7 @@
 [+] hw.dll replaced!
 [*] Replacing client.dll...
 [+] client.dll replaced!
-[*] Everything is done. Happy summer!
+[*] Everything is done. Happy halloween! :)
 ```
 <br>
 
