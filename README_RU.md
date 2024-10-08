@@ -49,7 +49,7 @@
 
 **Патчер предполагает, что у вас установлен Cry of Fear с Proton 5.13-6.** <br>
 Второй аргумент после `./cof-patcher-core` должен быть **ПОЛНЫМ** путем до установки Cry of Fear (должен начинаться с `/home/`). Патчер проверит существование директории и выполнит замену файлов. <br>
-> Если вы установили Cry of Fear через официальный Steam клиент (не flatpak или другие), обычно путь выглядит так: `/home/your_username/.steam/steam/steamapps/common/Cry of Fear`.
+> Если вы установили Cry of Fear через официальный Steam клиент (не flatpak или другие), обычно путь выглядит так: `/home/$USER/.steam/steam/steamapps/common/Cry\ of\ Fear/`.
 >
 
 ## Дополнительные аргументы
