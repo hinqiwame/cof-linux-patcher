@@ -1,5 +1,5 @@
 # Cry of Fear Linux Patcher (Core)
-> v0.0.4 - You will find out why it's "core" now later :)
+> After two years I've noticed that the project got popular in the Linux "gamingcryoffearish" community. The project is not abandoned, updates are coming!
 > 
 ![](/ass/logo.png)
 
